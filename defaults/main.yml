@@ -1,0 +1,7 @@
+---
+# defaults file for monsieurbiz.magerun
+
+monsieurbiz_magerun_versions:
+    - magerun
+    - magerun2
+

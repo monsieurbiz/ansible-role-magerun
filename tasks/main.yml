@@ -1,0 +1,10 @@
+---
+# Magerun
+
+- name: Get magerun(s)
+  become: yes
+  become_user: root
+  get_url: url=http://files.magerun.net/n98-{{item}}-latest.phar dest=/usr/local/bin/{{ item }} mode=0755
+  with_items: "{{ monsieurbiz_magerun_versions }}"
+  tags: [magerun]
+
