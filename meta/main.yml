@@ -5,7 +5,7 @@ galaxy_info:
   company: Monsieur Biz
 
   license: MIT
-  issue_tracker_url: https://github.com/monsieurbiz/ansible-role-webserver
+  issue_tracker_url: https://github.com/monsieurbiz/ansible-role-magerun
   min_ansible_version: 2.0
   github_branch: master
 
